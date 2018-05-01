@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: darkgreen;
+  font-family: 'VT323', monospace;
+  color: #808000 ;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#sidebar {
+  margin: 16px;
+  grid-area: sidebar;
+  padding: 5px 0 0 5px;
+  border-right: 1px solid #3f3f3f;
+  height: 100%;
+}
+
+ul {
+  padding-left: 8px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.post>span, .author, .timestamp {
+  display: block;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover, a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #808000 ;
+}
+
+a:visited {
+  color: #808000 ;
+}
+
+input, textarea, select {
+  border: none;
+  background-color: transparent;
+  color: #808000 ;
+  border-bottom: dashed 1px #808000 ;
+  margin-top: 8px;
+  outline: none;
+  margin-left: 8px;
+}
+
+input[type=submit] {
+  border: 1px solid #808000 ;
+  cursor: pointer;
+}
+
+select {
+  border-radius: 0px;
+  -webkit-appearance: none;
+  width: 115px;
+}
+
+/*.circle-btn, .plus, .minus {
+  border-radius: 50%;
+  border: 1px #808000  solid;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  text-align: center;
+}*/
